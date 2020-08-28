@@ -8,13 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "@react-spectrum/button": "^3.1.0",
-    "@react-spectrum/provider": "^3.1.0",
-    "@react-spectrum/theme-default": "^3.1.0",
-    "@zeit/next-css": "^1.0.1",
-    "ignore-styles": "^5.0.1",
+    "@adobe/react-spectrum": "nightly",
+    "@spectrum-icons/illustrations": "nightly",
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next-compose-plugins": "^2.2.0",
+    "next-transpile-modules": "^4.1.0"
   }
 }
