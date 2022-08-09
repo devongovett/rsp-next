@@ -8,13 +8,23 @@
     "start": "next start"
   },
   "dependencies": {
-    "@adobe/react-spectrum": "latest",
-    "@spectrum-icons/illustrations": "latest",
-    "next": "^11.1.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "@adobe/react-spectrum": "^3.20.0",
+    "@internationalized/date": "^3.0.1",
+    "@react-spectrum/accordion": "3.0.0-alpha.11",
+    "@react-spectrum/autocomplete": "3.0.0-alpha.9",
+    "@react-spectrum/avatar": "3.0.0-alpha.8",
+    "@react-spectrum/card": "3.0.0-alpha.10",
+    "@react-spectrum/color": "3.0.0-beta.14",
+    "@react-spectrum/list": "3.0.0-rc.0",
+    "@react-spectrum/searchwithin": "3.0.0-alpha.9",
+    "@react-spectrum/tag": "3.0.0-alpha.8",
+    "@spectrum-icons/illustrations": "^3.3.1",
+    "@spectrum-icons/workflow": "^4.0.1",
+    "next": "^12.1.6",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "next-transpile-modules": "^8.0.0"
+    "next-transpile-modules": "^9.0.0"
   }
 }
